@@ -31,7 +31,7 @@ public class ControllerPartida implements communication.Servidor.ConnectionEvent
 	}
 
 	@Override
-	public void onMessage(String msj) {
+	public void onEnvioCarta(String msj) {
 		// TODO Auto-generated method stub
 		
 	}

@@ -32,8 +32,8 @@ public class Servidor {
 	
 	
 	public interface ConnectionEvent{
-		void onConnection();
-		void onMessage(String msj);
+		void onConnection();	
+		void onEnvioCarta(String msj);
 	}
 	
 	private List<ConnectionEvent> listeners;
